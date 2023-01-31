@@ -32,9 +32,9 @@ body {
 
 .copyright {
     display: flex;
-    margin-left: 20%;
+    margin-left: 15%;
     height: 100%;
-    width: 50%;
+    width: 30%;
 }
 
 .copyright-text {
@@ -48,13 +48,13 @@ body {
 
 .slogan {
     display: flex;
+    margin-left: 30%;
     height: 100%;
+    float: right;
 }
 
 .slogan-text {
     color: #fff;
-    text-align: center;
-    margin-right: 2px;
     margin-top: 20px;
     font-family: "Open Sans";
     font-size: 14px;

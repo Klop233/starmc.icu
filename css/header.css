@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    margin-bottom: -60px;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 3px solid cornflowerblue;
+    z-index: 2;
+}
+
+.header-title {
+    color: cornflowerblue;
+    text-align: center;
+    margin-left: 15%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.menu-container {
+    margin-left: 25%;
+    display: flex
+}
+
+#nav {
+    padding: 20px 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    font-family: "Open Sans";
+}
+
+.nav-li-home {
+    background: url("icon/home.png");
+    border-bottom: 2px solid cornflowerblue;
+}

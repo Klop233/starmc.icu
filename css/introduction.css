@@ -1,0 +1,26 @@
+.introduction-container {
+    margin-top: 0;
+    text-align: center;
+    /* color: ; */
+}
+
+.introduction-title {
+    font-family: "Novecento Wide";
+    font-size: 2rem;
+    padding: 0.8rem 0;
+}
+
+.introduction-sub {
+    display: inline-block;
+    margin: auto 2rem
+}
+
+.introduction-subtitle {
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+}
+
+.introduction-text {
+    font-family: "Open Sans";
+    font-size: 1.1rem;
+}

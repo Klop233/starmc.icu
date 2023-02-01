@@ -23,7 +23,7 @@
 
 #nav {
     padding: 20px 0;
-    list-style: none;
+    /* list-style: none; */
     display: inline-block;
     text-align: center;
 }
@@ -31,9 +31,29 @@
 #nav li {
     display: inline;
     font-family: "Open Sans";
+    padding: 2px 0;
 }
 
 .nav-li-home {
-    background: url("icon/home.png");
+    list-style-image: url("../icon/home.svg");
     border-bottom: 2px solid cornflowerblue;
+}
+
+.nav-li-github {
+    list-style-image: url("icon/github-fill.svg");
+}
+
+.nav-li-github:hover {
+    border-bottom: 2px solid purple;
+    transform: translate(-50%, 0);
+}
+
+.nav-li-contact:hover {
+    border-bottom: 2px solid #99dd89;
+    transform: translate(-50%, 0);
+}
+
+.nav-li-about:hover {
+    border-bottom: 2px solid #40a8e4;
+    transform: translate(-50%, 0);
 }

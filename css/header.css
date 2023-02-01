@@ -17,7 +17,9 @@
 }
 
 .menu-container {
-    margin-left: 25%;
+    float: right;
+    position: absolute;
+    right: 8%;
     display: flex
 }
 
@@ -30,17 +32,18 @@
 
 #nav li {
     display: inline;
-    font-family: "Open Sans";
+    font-family: "Noto Sans SC";
     padding: 2px 0;
 }
 
 .nav-li-home {
-    list-style-image: url("../icon/home.svg");
+    background: url("../icon/home.png") no-repeat;
     border-bottom: 2px solid cornflowerblue;
+    color: cornflowerblue
 }
 
 .nav-li-github {
-    list-style-image: url("icon/github-fill.svg");
+    background: url("icon/github-fill.svg") no-repeat;
 }
 
 .nav-li-github:hover {
@@ -56,4 +59,8 @@
 .nav-li-about:hover {
     border-bottom: 2px solid #40a8e4;
     transform: translate(-50%, 0);
+}
+
+ul#nav li {
+    list-style-image: url("icon/home.png");
 }

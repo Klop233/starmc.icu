@@ -38,8 +38,9 @@
 
 .slogan {
     display: flex;
-    margin-left: 38rem;
-    height: 100%;
+    position: absolute;
+    right: 8rem;
+    height: 2rem;
     float: right;
 }
 

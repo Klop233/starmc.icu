@@ -25,13 +25,13 @@
 }
 
 .copyright-text {
-    display: table-cell;
-    vertical-align: middle;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
     color: #fff;
     text-align: center;
     margin-left: 2rem;
     /* margin-top: 1.2rem; */
-    padding: 1.3rem 0;
+    padding: 0.8rem 0;
     font-family: "Open Sans";
     font-size: 0.9rem;
 }

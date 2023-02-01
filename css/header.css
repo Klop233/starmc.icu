@@ -48,7 +48,8 @@
 }
 
 .nav-li-github {
-    list-style-image: url("../icon/github-fill.svg");
+    list-style-position: inside;
+    list-style: image(url("../icon/github-fill.svg"));
 }
 
 .nav-li-github:hover {

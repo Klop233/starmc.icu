@@ -2,3 +2,9 @@
     font-family: "Novecento Wide";
     src: url("../font/Novecento-Wide-Bold-2.woff2") format("woff")
 }
+
+.icon-font {
+    position: relative;
+    display: inline-block;
+    top: 0.4rem;
+}

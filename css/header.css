@@ -1,9 +1,9 @@
 .header {
     display: flex;
-    margin-bottom: -60px;
-    height: 60px;
+    margin-bottom: -3.75rem;
+    height: 4rem;
     background: url("../image/pattern.png");
-    border-bottom: 3px solid cornflowerblue;
+    border-bottom: 0.3rem solid cornflowerblue;
     z-index: 2;
 }
 

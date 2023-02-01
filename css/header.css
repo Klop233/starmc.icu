@@ -37,6 +37,10 @@
     padding: 0.5rem 0;
 }
 
+.menu-element {
+    margin: auto 2rem;
+}
+
 .nav-li-home {
     list-style: image(url("../icon/home.png"));
     border-bottom: 2px solid cornflowerblue;

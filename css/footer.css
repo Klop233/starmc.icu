@@ -3,10 +3,7 @@
     padding: 0px;
 }
 
-html,
-body {
-    height: 100%;
-}
+
 
 .footer {
     display: flex;
@@ -14,14 +11,6 @@ body {
     height: 60px;
     background-color: #000;
     z-index: 2;
-}
-
-.wrap {
-    min-height: 100%;
-}
-
-.main {
-    padding-bottom: 50px;
 }
 
 .footer-logo {

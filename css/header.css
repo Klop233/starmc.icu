@@ -37,13 +37,13 @@
 }
 
 .nav-li-home {
-    background: url("../icon/home.png") no-repeat;
+    list-style: image(url("../icon/home.png"));
     border-bottom: 2px solid cornflowerblue;
     color: cornflowerblue
 }
 
 .nav-li-github {
-    background: url("icon/github-fill.svg") no-repeat;
+    list-style-image: url("../icon/github-fill.svg");
 }
 
 .nav-li-github:hover {

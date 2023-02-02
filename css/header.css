@@ -19,7 +19,8 @@
 .menu-container {
     float: right;
     position: absolute;
-    right: 8%;
+    top: 0.3rem;
+    right: 5rem;
     display: flex
 }
 
@@ -39,6 +40,8 @@
 
 .menu-element {
     margin: auto 2rem;
+    height: 100%;
+    width: 100%;
 }
 
 .nav-li-home {

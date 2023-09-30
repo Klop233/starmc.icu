@@ -2,6 +2,7 @@
     height: 40rem;
     text-align: center;
     background: url("../image/banner.png");
+    border-radius: 2rem;
     border-bottom: 3px solid #fa75b8;
 }
 

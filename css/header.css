@@ -5,6 +5,7 @@
     background: url("../image/pattern.png");
     border-bottom: 0.25rem solid cornflowerblue;
     z-index: 2;
+    border-radius: 2rem;
 }
 
 .header-title {
@@ -72,4 +73,13 @@
 
 ul#nav li {
     list-style-image: url("icon/home.png");
+}
+
+#nav a:hover {
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+#nav a {
+    transition: 0.7s;
 }

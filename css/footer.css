@@ -9,12 +9,15 @@
     height: 4rem;
     background-color: #000;
     z-index: 2;
+    border-radius: 20px;
+    margin: 2px;
 }
 
 .footer-logo {
     display: block;
-    margin-top: 20;
+    /* margin-top: 20px; */
     height: 100%;
+    margin-left: 20px;
 }
 
 .copyright {
@@ -49,4 +52,17 @@
     padding: 1.3rem 0;
     font-family: "Open Sans";
     font-size: 0.9rem;
+}
+
+.footer-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 0.5rem;
+    transition: 0.5s;
+
 }
